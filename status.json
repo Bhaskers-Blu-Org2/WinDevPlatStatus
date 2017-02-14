@@ -1,0 +1,1129 @@
+[
+  {
+    "name": "Chaseable Tiles",
+    "category": "tile",
+    "summary": "Allow apps to know what was on their Live Tile when the user clicked it.",
+    "status": {
+      "text": "Shipped",
+      "buildNumber": "14393"
+    },
+    "msdn": "https://blogs.msdn.microsoft.com/tiles_and_toasts/2016/04/06/chaseable-tiles-know-what-was-clicked-on-your-live-tile-windows-10-uwp/",
+    "demo": "",
+    "id": null
+  },
+  {
+    "name": "Adaptive Toast Notifications",
+    "category": "toast",
+    "summary": "Support the same visual richness that Tiles have on Toast",
+    "status": {
+      "text": "Shipped",
+      "buildNumber": "14393"
+    },
+    "msdn": "https://blogs.msdn.microsoft.com/tiles_and_toasts/2016/06/10/whats-new-for-toast-notifications-and-action-center-in-windows-10-anniversary-update/",
+    "demo": "",
+    "id": null
+  },
+  {
+    "name": "Context menu on Toast notification",
+    "category": "toast",
+    "summary": "Allow developer-specified context menu actions on the Toast notification",
+    "status": {
+      "text": "Shipped",
+      "buildNumber": "14393"
+    },
+    "msdn": "https://blogs.msdn.microsoft.com/tiles_and_toasts/2016/06/10/whats-new-for-toast-notifications-and-action-center-in-windows-10-anniversary-update/",
+    "demo": "",
+    "id": null
+  },
+  {
+    "name": "Notification Listener",
+    "category": "toast",
+    "summary": "Allow apps to access your notifications, so wearable apps can be created",
+    "status": {
+      "text": "Shipped",
+      "buildNumber": "14393"
+    },
+    "msdn": "https://blogs.msdn.microsoft.com/tiles_and_toasts/2016/05/26/notification-listener-documentation-windows-10/",
+    "demo": "",
+    "id": null
+  },
+  {
+    "name": "Support hint-crop on Tile background image",
+    "category": "tile",
+    "summary": "Support hint-crop circle on Adaptive Tile notification background images",
+    "status": {
+      "text": "Shipped",
+      "buildNumber": "10586"
+    },
+    "msdn": "https://blogs.msdn.microsoft.com/tiles_and_toasts/2015/11/03/whats-new-for-adaptive-tile-templates-in-windows-10-version-1511/",
+    "demo": "",
+    "id": null
+  },
+  {
+    "name": "Support hint-crop on Tile peek image",
+    "category": "tile",
+    "summary": "Support hint-crop circle on Adaptive Tile notification peek images",
+    "status": {
+      "text": "Shipped",
+      "buildNumber": "10586"
+    },
+    "msdn": "https://blogs.msdn.microsoft.com/tiles_and_toasts/2015/11/03/whats-new-for-adaptive-tile-templates-in-windows-10-version-1511/",
+    "demo": "",
+    "id": null
+  },
+  {
+    "name": "Support hint-crop on Tile peek image",
+    "category": "tile",
+    "summary": "Support hint-crop circle on Adaptive Tile notification peek images",
+    "status": {
+      "text": "Shipped",
+      "buildNumber": "10586"
+    },
+    "msdn": "https://blogs.msdn.microsoft.com/tiles_and_toasts/2015/11/03/whats-new-for-adaptive-tile-templates-in-windows-10-version-1511/",
+    "demo": "",
+    "id": null
+  },
+  {
+    "name": "Interactive Toast notifications",
+    "category": "toast",
+    "summary": "Allow quick reply and other interactive Toast notification scenarios",
+    "status": {
+      "text": "Shipped",
+      "buildNumber": "10240"
+    },
+    "msdn": "https://blogs.msdn.microsoft.com/tiles_and_toasts/2015/07/02/adaptive-and-interactive-toast-notifications-for-windows-10/",
+    "demo": "",
+    "id": null
+  },
+  {
+    "name": "Third pary alarms break through quiet hours",
+    "category": "toast",
+    "summary": "Allow third party alarm notifications to break through quiet hours, just like native Alarm app",
+    "status": {
+      "text": "Under Consideration"
+    },
+    "msdn": "",
+    "demo": "",
+    "id": null,
+    "uservoiceid": 14801892
+  },
+  {
+    "name": "API to pin primary tile and check if pinned",
+    "category": "tile",
+    "summary": "Allow apps to check whether their primary tile is pinned to Start, and request to pin their primary live tile.",
+    "status": {
+      "text": "Preview Release",
+      "buildNumber": "15025"
+    },
+    "msdn": "https://blogs.msdn.microsoft.com/tiles_and_toasts/2017/02/01/primary-live-tile-api-windows-10/",
+    "demo": "",
+    "id": null,
+    "uservoiceid": 2809413
+  },
+  {
+    "name": "XAML for Live Tiles",
+    "category": "tile",
+    "summary": "Allow apps to use full XAML on their Live Tile, to create rich and beautiful experiences",
+    "status": {
+      "text": "Not currently planned"
+    },
+    "msdn": "",
+    "demo": "",
+    "id": null,
+    "uservoiceid": 2282240
+  },
+  {
+    "name": "Allow max length of Toast Tag/Group to be at least GUID length",
+    "category": "toast",
+    "summary": "Currently, Toast Tag/Group is too short to even hold a GUID",
+    "status": {
+      "text": "Preview Release",
+      "buildNumber": 15002
+    },
+    "msdn": "",
+    "demo": "",
+    "id": null,
+    "uservoiceid": 8629408
+  },
+  {
+    "name": "Allow running longer in the background based on AC availability",
+    "category": "background",
+    "summary": "Extended Execution session can run forever when connected to AC",
+    "status": {
+      "text": "Shipped",
+      "buildNumber": "14393"
+    },
+    "msdn": "https://msdn.microsoft.com/en-us/library/windows/apps/windows.applicationmodel.extendedexecution.extendedexecutionsession.aspx",
+    "demo": "",
+    "id": 5782071,
+    "uservoiceid": null
+  },
+  {
+    "name": "Provide a one-process background task model",
+    "category": "background",
+    "summary": "Single-process background execution model for UWP",
+    "status": {
+      "text": "Shipped",
+      "buildNumber": "14393"
+    },
+    "msdn": "https://blogs.windows.com/buildingapps/2016/06/07/background-activity-with-the-single-process-model/",
+    "demo": "",
+    "id": 5782050,
+    "uservoiceid": null
+  },
+  {
+    "name": "Background Execution Policy management ",
+    "category": "background",
+    "summary": "Allow enterprises to configure background execution policies, both globally and per-app (via GP and User Settings)",
+    "status": {
+      "text": "In Development"
+    },
+    "msdn": "",
+    "demo": "",
+    "id": 8239346,
+    "uservoiceid": null
+  },
+  {
+    "name": "Declare firewall exemptions in the manifest",
+    "category": "desktopbridge",
+    "summary": "Allow DesktopBridge apps to declare their firewall exemptions in the appx manifest",
+    "status": {
+      "text": "In Development"
+    },
+    "msdn": "",
+    "demo": "",
+    "id": 8271120,
+    "uservoiceid": null
+  },
+  {
+    "name": "Support for pre-installed Centennial apps",
+    "category": "desktopbridge",
+    "summary": "Support DesktopBridge apps to be preinstalled on Windows images",
+    "status": {
+      "text": "In Development"
+    },
+    "msdn": "",
+    "demo": "",
+    "id": 9075778,
+    "uservoiceid": null
+  },
+  {
+    "name": "Provide new WinRT events for \"App has begun/exited resize loop\"",
+    "category": "appviewmgmt",
+    "summary": "Allow games to be smart about handling Window resize",
+    "status": {
+      "text": "In Development"
+    },
+    "msdn": "",
+    "demo": "",
+    "id": 5883839,
+    "uservoiceid": null
+  },
+  {
+    "name": "Additional AppModel Developer Diagnostic APIs",
+    "category": "misc",
+    "summary": "APIs to diagnose memory, CPU, background execution, etc.",
+    "status": {
+      "text": "Under Consideration"
+    },
+    "msdn": "",
+    "demo": "",
+    "id": 9546400,
+    "uservoiceid": null
+  },
+  {
+    "name": "Support Secondary Tiles from Win32 Processes",
+    "category": "desktopbridge",
+    "summary": "Support secondary tiles for DesktopBridge applications",
+    "status": {
+      "text": "Under Consideration"
+    },
+    "msdn": "",
+    "demo": "",
+    "id": 7365579,
+    "uservoiceid": null
+  },
+  {
+    "name": "Developers can stop/modify window content from showing in task switcher and other mini views of the application",
+    "category": "appviewmgmt",
+    "summary": "Allow apps to override the content shown in mini-views/previews for their apps, for example in the task switcher UI",
+    "status": {
+      "text": "Under Consideration"
+    },
+    "msdn": "",
+    "demo": "",
+    "id": 878384,
+    "uservoiceid": null
+  },
+  {
+    "name": "Loose file registration from a network share (multiple machines, single share)",
+    "category": "deployment",
+    "summary": "Registering an app in development mode allows for quicker iteration in development.  In many cases a developer wants to test on multiple devices or collaborate with other developer at the same time.  This feature allows the app registration to a network share so multiple devices can share register to teh same folder without the need to copy the files to each device.",
+    "status": {
+      "text": "Preview Release",
+      "buildNumber": "14965"
+    },
+    "msdn": "http://blogs.msdn.microsoft.com/appinstaller/2016/11/04/rapid-app-development-using-register-layout-from-network-share-new-in-build-14965/",
+    "demo": "",
+    "id": 7223643,
+    "uservoiceid": null
+  },
+  {
+    "name": "Utility which allows developers to understand update diff between old and new package",
+    "category": "deployment",
+    "summary": "When a user gets an update of a UWP app the deployment stack performs a differential download based on changes block with in the app, minimizing the bandwidth and update time for the user.  In the Windows 10 Creators Update a new tool was introduced (ComparePackage) to allow the developer to understand what the delta impact across two packages will be to an end user.  ComparePackage will show the add, changes, and deletes of files to allowing the developer to further optimize as needed.",
+    "status": {
+      "text": "Preview Release",
+      "buildNumber": "15014"
+    },
+    "msdn": "",
+    "demo": "",
+    "id": 7068331,
+    "uservoiceid": null
+  },
+  {
+    "name": "After an upgrade (i.e. RS2 > RS3), do not reinstall uninstalled apps",
+    "category": "deployment",
+    "summary": "Many apps come preinstalled with Windows. These are typically apps which are core to the Windows experience or that most people expect the system to have by default. Starting with build 14942 if a user removes an app the Windows upgrade experience will not reinstall the app on the device.",
+    "status": {
+      "text": "Preview Release",
+      "buildNumber": "14942"
+    },
+    "msdn": "https://blogs.msdn.microsoft.com/appinstaller/2016/10/25/upgrade-improvements-in-14942/",
+    "demo": "",
+    "id": 6240567,
+    "uservoiceid": null
+  },
+  {
+    "name": "[Enterprise] App install progress for Company Hub",
+    "category": "deployment",
+    "summary": "When managing and deploying apps from a Company Hub UWP developers wants the ability to report status and progress of installations of UWP on the device.  In the creators update the package catalog class will allow a UWP with Package Management capabilities the ability to listen for state and installation progress of a UWP deployment.",
+    "status": {
+      "text": "Preview Release",
+      "buildNumber": "15014"
+    },
+    "msdn": "https://msdn.microsoft.com/en-us/library/windows/apps/Windows.ApplicationModel.PackageCatalog.aspx",
+    "demo": "",
+    "id": 342542,
+    "uservoiceid": null
+  },
+  {
+    "name": "Provide a method to remove an app from all users of the device without the user logging in.",
+    "category": "deployment",
+    "summary": "Apps that are preinstalled on Windows 10 desktop are registered to all users that log into the device.  An administrator could remove these preinstalled apps so no new users would register the app, but if a user had previously been logged in they would still have the app registered.  The Windows 10 Creators Update now offers additional commands allow an administrator to remove the preinstalled app from the devices and from any user profile that has registered the app allowing for a complete removal of the app from the device.",
+    "status": {
+      "text": "Preview Release",
+      "buildNumber": "15014"
+    },
+    "msdn": "",
+    "demo": "",
+    "id": 3167675,
+    "uservoiceid": null
+  },
+  {
+    "name": "[STREAMING] Deployment stack support for first time streaming install",
+    "category": "deployment",
+    "summary": "Developers can enable their app to launch when a minimal payload is deployed to the user.  This allows for quicker app engagement for the user.  Within the app the developer can customize the experience of the app as the remaining portion of the app are deployed.  A developer can prioritize the downloads of files and see progress of the remaining installation to provide a fluid in app experience.",
+    "status": {
+      "text": "In Development",
+      "buildNumber": null
+    },
+    "msdn": "",
+    "demo": "",
+    "id": 7932349,
+    "uservoiceid": null
+  },
+  {
+    "name": "Allow in-place update for UWPs for large apps",
+    "category": "deployment",
+    "summary": "If an app is over 10 GB in space it will update the files in place instead of staging the files side by side with the original version preventing out of disk space errors when updating.",
+    "status": {
+      "text": "In Development",
+      "buildNumber": null
+    },
+    "msdn": "",
+    "demo": "",
+    "id": 9506942,
+    "uservoiceid": null
+  },
+  {
+    "name": "Easy installation of a .appx or .appxbundle file",
+    "category": "deployment",
+    "summary": "Shell integration to double click and install a UWP on Windows desktop!",
+    "status": {
+      "text": "Shipped",
+      "buildNumber": 14393
+    },
+    "msdn": "https://blogs.msdn.microsoft.com/appinstaller/2016/05/27/app-installer/",
+    "demo": "",
+    "id": null,
+    "uservoiceid": null
+  },
+  {
+    "name": "App extensions",
+    "category": "deployment",
+    "summary": "Developers can host the ability to offer independent UWP packages to offer extensibility to their UWP app.  The extensions can be provided from first or third party developers.   The host app is in control of what extensions can load and run to ensure the integrity and quality of the app experience.",
+    "status": {
+      "text": "Shipped",
+      "buildNumber": 14393
+    },
+    "msdn": "https://channel9.msdn.com/Events/Build/2016/B808",
+    "demo": "",
+    "id": 4727727,
+    "uservoiceid": null
+  },
+  {
+    "name": "Developer controlled app updates",
+    "category": "deployment",
+    "summary": "Developers have an in app experience to notify the user of required or optional app updates.  Based on the state of the update developers can enable or disable functionality (i.e. online experience) until the update has been installed.",
+    "status": {
+      "text": "Shipped",
+      "buildNumber": 14393
+    },
+    "msdn": "https://blogs.msdn.microsoft.com/appinstaller/2016/11/11/developer-controlled-app-updates/",
+    "demo": "",
+    "id": 5876297,
+    "uservoiceid": null
+  },
+  {
+    "name": "Remote Sessions",
+    "category": "projectrome",
+    "summary": "Remote Sessions enable developers to create experiences that multiple participants can concurrently engage in. These new APIs enable developers to create sessions, discover sessions (proximally), discover other users’ devices (proximally and with \"Share across devices\" setting set to \"everyone nearby\"), and exchange messages with other participants in the session.",
+    "status": {
+      "text": "In Development",
+      "buildNumber": null
+    },
+    "msdn": "",
+    "demo": "",
+    "id": null,
+    "uservoiceid": null
+  },
+  {
+    "name": "Remote Systems Android SDK",
+    "category": "projectrome",
+    "summary": "The Android SDK provides the same client functionality as our Anniversary Update Remote Systems Windows SDK:\n a) Device discovery, proximal and cloud\n b) Remote launch",
+    "status": {
+      "text": "In Development",
+      "buildNumber": null
+    },
+    "msdn": "",
+    "demo": "",
+    "id": null,
+    "uservoiceid": null
+  },
+  {
+    "name": "Support for AppUriHandlers in Edge",
+    "category": "projectrome",
+    "summary": "AppUriHandlers are now supported in the Edge browser",
+    "status": {
+      "text": "In Development",
+      "buildNumber": null
+    },
+    "msdn": "",
+    "demo": "",
+    "id": null,
+    "uservoiceid": null
+  },
+  {
+    "name": "Remote Systems: AAD support",
+    "category": "projectrome",
+    "summary": "The Remote Systems APIs now support AAD as well. You can discover your devices based on your AAD identity.",
+    "status": {
+      "text": "In Development",
+      "buildNumber": null
+    },
+    "msdn": "",
+    "demo": "",
+    "id": null,
+    "uservoiceid": null
+  },
+  {
+    "name": "Remote Systems API updates",
+    "category": "projectrome",
+    "summary": "The Remote Systems APIs have been updated to support:\n a) Spatially proximal discovery/filtering of devices\n b) Anonymous (cross-user) discovery of devices\n c) Ability to check state of “Share across devices” setting on local device\n d) Ability to check resources/capabilities on a given Remote System\n e) Settings update",
+    "status": {
+      "text": "In Development",
+      "buildNumber": null
+    },
+    "msdn": "",
+    "demo": "",
+    "id": null,
+    "uservoiceid": null
+  },
+  {
+    "name": "Remote Systems iOS SDK",
+    "category": "projectrome",
+    "summary": "The Remote Systems iOS SDK enables you discover devices (proximally or through the cloud), remote launch, and set up app service connections to them.",
+    "status": {
+      "text": "Under Consideration",
+      "buildNumber": null
+    },
+    "msdn": "",
+    "demo": "",
+    "id": null,
+    "uservoiceid": null
+  },
+  {
+    "name": "Remote Systems: Exposing device capabilities",
+    "category": "projectrome",
+    "summary": "Through the Remote System APIs you will be able to find details about a given device, such as capabilities, sensors, apps, app services, etc., and interact with those resources.",
+    "status": {
+      "text": "Under Consideration",
+      "buildNumber": null
+    },
+    "msdn": "",
+    "demo": "",
+    "id": null,
+    "uservoiceid": null
+  },
+  {
+    "name": "Lifelike visual experiences through use of lighting and responsive materials",
+    "category": "ui",
+    "summary": "Use of lights, effect graphs, blurs, noise assets, blend modes etc. to create more lifelike UI with contextual materials",
+    "status": {
+      "text": "In Development",
+      "buildNumber": null
+    },
+    "msdn": "",
+    "demo": "",
+    "id": null,
+    "uservoiceid": null
+  },
+  {
+    "name": "Custom page transitions using show/hide implicit animations",
+    "category": "ui",
+    "summary": "Developers are able to customize how items are shown or hidden during page transitions ",
+    "status": {
+      "text": "In Development",
+      "buildNumber": null
+    },
+    "msdn": "",
+    "demo": "",
+    "id": null,
+    "uservoiceid": null
+  },
+  {
+    "name": "Ability to implicitly animate additional properties on CompositionObjects (drop shadows, clips, property sets) ",
+    "category": "ui",
+    "summary": "Responding to developer demand, now more Composition objects and properties can be implicitly animated than in the Anniversary Update.",
+    "status": {
+      "text": "In Development",
+      "buildNumber": null
+    },
+    "msdn": "",
+    "demo": "",
+    "id": null,
+    "uservoiceid": null
+  },
+  {
+    "name": "Per monitor DPI awareness APIs",
+    "category": "ui",
+    "summary": "Enhanced DPI  APIs to allow Win32 apps more flexibility in controlling UI scaling and fidelity on a per-monitor basis. Developers no longer need to deal with an \"all or nothing\" option for DPI, and can progressively convert portions of their UI over to work better on newer premium PC displays.\n\nE.g. Automatic scaling of the title bar;  More controls in ComCtl are DPI aware",
+    "status": {
+      "text": "In Development",
+      "buildNumber": null
+    },
+    "msdn": "",
+    "demo": "",
+    "id": null,
+    "uservoiceid": null
+  },
+  {
+    "name": "Enable UWPs with depth and volume to look more realistic in 3D/HMD environments",
+    "category": "ui",
+    "summary": "Lower barrier to entry for developers who build predominantly 2D UWP apps that have some notion of depth and layers, or volumetric content, to have those apps look more realistic with minimal additional code when used in a 3D environment like Windows Holographic (PC with HMD, HoloLens)",
+    "status": {
+      "text": "Under Consideration",
+      "buildNumber": null
+    },
+    "msdn": "",
+    "demo": "",
+    "id": null,
+    "uservoiceid": null
+  },
+  {
+    "name": "Game quality rendering comes to UI with particle systems, post-proc effects, env maps, lighting and shadows in the Visual layer",
+    "category": "ui",
+    "summary": "We will push the frontiers of Windows UI and experiences with higher fidelity graphics, broader palette of effects, and more dynamic visualizations.",
+    "status": {
+      "text": "Under Consideration",
+      "buildNumber": null
+    },
+    "msdn": "",
+    "demo": "",
+    "id": null,
+    "uservoiceid": null
+  },
+  {
+    "name": "Animated text, sharp and clear text @ scale in the Visual layer",
+    "category": "ui",
+    "summary": "Visuals with text primitive support that can be gracefully animated, scaled, have effects applied.",
+    "status": {
+      "text": "Under Consideration",
+      "buildNumber": null
+    },
+    "msdn": "",
+    "demo": "",
+    "id": null,
+    "uservoiceid": null
+  },
+  {
+    "name": "Animated vector graphics support in the Visual layer",
+    "category": "ui",
+    "summary": "Support for vector graphic primitives in Visuals that can be gracefully animated, scaled, have effects applied.",
+    "status": {
+      "text": "Under Consideration",
+      "buildNumber": null
+    },
+    "msdn": "",
+    "demo": "",
+    "id": null,
+    "uservoiceid": null
+  },
+  {
+    "name": "Improve the developer experience in authoring Expression Animations",
+    "category": "ui",
+    "summary": "Better Expression Authoring experience with strongly typed classes and IntelliSense support, in contrast to the current \"string-ly typed\" option.",
+    "status": {
+      "text": "Under Consideration",
+      "buildNumber": null
+    },
+    "msdn": "",
+    "demo": "",
+    "id": null,
+    "uservoiceid": null
+  },
+  {
+    "name": "Developer/Designers can directly animate the velocity/acceleration of properties",
+    "category": "ui",
+    "summary": "Animating the velocity and acceleration of properties opens up new scenarios around natural motion and interaction with UI. Developers fill find this an easier solution to translate natural feeling motion design into code, without resorting to hacks or workarounds.",
+    "status": {
+      "text": "Under Consideration",
+      "buildNumber": null
+    },
+    "msdn": "",
+    "demo": "",
+    "id": null,
+    "uservoiceid": null
+  },
+  {
+    "name": "Users get familiar intuitive interactions with content using canned physics",
+    "category": "ui",
+    "summary": "New physics constructs springs, decays, anchors, hinges that make lists and common panning/zooming/drag-drop interactions feel lifelike",
+    "status": {
+      "text": "Under Consideration",
+      "buildNumber": null
+    },
+    "msdn": "",
+    "demo": "",
+    "id": null,
+    "uservoiceid": null
+  },
+  {
+    "name": "Ability to animate Visuals along a non-linear path",
+    "category": "ui",
+    "summary": "Developers are able to create dynamic paths to allow content to transition from one location to another naturally on any form factor.",
+    "status": {
+      "text": "Under Consideration",
+      "buildNumber": null
+    },
+    "msdn": "",
+    "demo": "",
+    "id": null,
+    "uservoiceid": null
+  },
+  {
+    "name": "Animation system to drive non-CompositionObjects like Win2D objects",
+    "category": "ui",
+    "summary": "Developers get one Animation system to animate everything in your UI",
+    "status": {
+      "text": "Under Consideration",
+      "buildNumber": null
+    },
+    "msdn": "",
+    "demo": "",
+    "id": null,
+    "uservoiceid": null
+  },
+  {
+    "name": "Developers have a complete, documented API set to enable premium Win32 apps to support multi-monitor scenarios correctly",
+    "category": "ui",
+    "summary": "Improving Win32 API reference docs specifically where APIs (e.g. in User32) have DPI specific behaviors.",
+    "status": {
+      "text": "Under Consideration",
+      "buildNumber": null
+    },
+    "msdn": "",
+    "demo": "",
+    "id": null,
+    "uservoiceid": null
+  },
+  {
+    "name": "UWP apps can build screen capture experiences",
+    "category": "ui",
+    "summary": "Screen capture APIs to allow bitmap snapshots or streams of frames to be captured from the desktop or on a per-app basis.",
+    "status": {
+      "text": "Under Consideration",
+      "buildNumber": null
+    },
+    "msdn": "",
+    "demo": "",
+    "id": null,
+    "uservoiceid": null
+  },
+  {
+    "name": "Developers can use Windows.UI.Composition APIs in Win32 apps on Windows 10",
+    "category": "ui",
+    "summary": "Access to the Visual layer and Dispatcher APIs from a Win32, WPF, WinForms etc. app on Windows 10.",
+    "status": {
+      "text": "Under Consideration",
+      "buildNumber": null
+    },
+    "msdn": "",
+    "demo": "",
+    "id": null,
+    "uservoiceid": null
+  },
+  {
+    "name": "Support for clocks to control Animations",
+    "category": "ui",
+    "summary": "Developers are able to control and manage the progression of their animations – making choreographed UI and “playback control” experiences possible to create: Clocks, Triggers, State machines",
+    "status": {
+      "text": "Under Consideration",
+      "buildNumber": null
+    },
+    "msdn": "",
+    "demo": "",
+    "id": null,
+    "uservoiceid": null
+  },
+  {
+    "name": "DispatcherQueue allows developers to easily create a secondary thread and schedule work on it",
+    "category": "ui",
+    "summary": "Ability to create a worker thread from the Dispatcher Queue. Ability to execute one task at a time, in the order in which they were added. Or schedule multiple concurrent tasks.\n\nDevelopers can also attach system level sources like File Descriptors, Sockets, etc. to DispatcherQueues and build custom handling for them.",
+    "status": {
+      "text": "Under Consideration",
+      "buildNumber": null
+    },
+    "msdn": "",
+    "demo": "",
+    "id": null,
+    "uservoiceid": null
+  },
+  {
+    "name": "HDR/Wide Color Gamut support with Composition APIs",
+    "category": "ui",
+    "summary": "Composing HDR/Wide Color Gamut assets like images, textures, video with Composition APIs",
+    "status": {
+      "text": "Under Consideration",
+      "buildNumber": null
+    },
+    "msdn": "",
+    "demo": "",
+    "id": null,
+    "uservoiceid": null
+  },
+  {
+    "name": "Improve the Windows Console color scheme",
+    "category": "console",
+    "summary": "Update the console color scheme for better contrast, make it easier to read.",
+    "status": {
+      "text": "Under Consideration",
+      "buildNumber": null
+    },
+    "msdn": "",
+    "demo": "",
+    "id": 7905118,
+    "uservoiceid": null
+  },
+  {
+    "name": "Enable publishing Console apps to the Store",
+    "category": "console",
+    "summary": "Developers can publish Console applications to the Windows Store",
+    "status": {
+      "text": "Under Consideration",
+      "buildNumber": null
+    },
+    "msdn": "",
+    "demo": "",
+    "id": 9206421,
+    "uservoiceid": null
+  },
+  {
+    "name": "DAC: Add support for Icon Extraction",
+    "category": "desktopbridge",
+    "summary": "Extract the icon resources from an app and use them to initialize the converted package’s visual assetsExtract the icon resources from an app and use them to initialize the converted package’s visual assets",
+    "status": {
+      "text": "Shipped",
+      "buildNumber": 14393
+    },
+    "msdn": "http://aka.ms/converterdocs",
+    "demo": "",
+    "id": null,
+    "uservoiceid": null
+  },
+  {
+    "name": "DAC: Add support for converting Apps without an installer",
+    "category": "desktopbridge",
+    "summary": "DAC should produce a manfest file for simple apps that do not have an installer (ie: xcopy)",
+    "status": {
+      "text": "In Development",
+      "buildNumber": null
+    },
+    "msdn": "",
+    "demo": "",
+    "id": null,
+    "uservoiceid": null
+  },
+  {
+    "name": "DAC: Support detecting COM and extract registrations to the AppXManifest",
+    "category": "desktopbridge",
+    "summary": "Detect Out of proc COM registrations and add appropriate Packaged COM manifest entries.",
+    "status": {
+      "text": "In Development",
+      "buildNumber": null
+    },
+    "msdn": "",
+    "demo": "",
+    "id": null,
+    "uservoiceid": null
+  },
+  {
+    "name": "Support calling 3rd party WinRT Components from Win32",
+    "category": "com",
+    "summary": "Allow 3rd party developers to create WinRT components that can be called from UWP apps and Win32 apps",
+    "status": {
+      "text": "Under Consideration",
+      "buildNumber": null
+    },
+    "msdn": "",
+    "demo": "",
+    "id": null,
+    "uservoiceid": null
+  },
+  {
+    "name": "Packaged COM Support for the Desktop Bridge",
+    "category": "com",
+    "summary": "Allow apps to register public Out-of-Proc COM servers",
+    "status": {
+      "text": "In Development",
+      "buildNumber": null
+    },
+    "msdn": "",
+    "demo": "",
+    "id": null,
+    "uservoiceid": null
+  },
+  {
+    "name": "WinRT registration support for Optional Packages",
+    "category": "com",
+    "summary": "Support for Optional Packages when registering WinRT classes",
+    "status": {
+      "text": "In Development",
+      "buildNumber": null
+    },
+    "msdn": "",
+    "demo": "",
+    "id": null,
+    "uservoiceid": null
+  },
+  {
+    "name": "Update inbox SQLite for Creators Update",
+    "category": "com",
+    "summary": "Update the inbox version of SQLite to the latest version",
+    "status": {
+      "text": "In Development",
+      "buildNumber": null
+    },
+    "msdn": "",
+    "demo": "",
+    "id": null,
+    "uservoiceid": null
+  },
+  {
+    "name": "XAML Markup Extensions",
+    "category": "ui",
+    "summary": "Add markup extension capability similar to what existed in WPF, to the UWP XAML framework.",
+    "status": {
+      "text": "Under Consideration",
+      "buildNumber": null
+    },
+    "msdn": "",
+    "demo": "",
+    "id": null,
+    "uservoiceid": 7232264
+  },
+  {
+    "name": "Form Input Validation",
+    "category": "ui",
+    "summary": "Foundation support in the XAML Framework to enable forms input validation.",
+    "status": {
+      "text": "Under Consideration",
+      "buildNumber": null
+    },
+    "msdn": "",
+    "demo": "",
+    "id": null,
+    "uservoiceid": 13052589
+  },
+  {
+    "name": "Improved Repeater controls for UI Virtualization",
+    "category": "ui",
+    "summary": "Enabling more flexible layouts and extensible virtualization for repeated item scenarios using XAML.",
+    "status": {
+      "text": "Under Consideration",
+      "buildNumber": null
+    },
+    "msdn": "",
+    "demo": "",
+    "id": null,
+    "uservoiceid": null
+  },
+  {
+    "name": "UpdateSourceTrigger in x:Bind",
+    "category": "ui",
+    "summary": "Bring forward the UpdateSourceTrigger mechanism from classic binding to compiled binding (x:Bind).",
+    "status": {
+      "text": "Under Consideration",
+      "buildNumber": null
+    },
+    "msdn": "",
+    "demo": "",
+    "id": null,
+    "uservoiceid": null
+  },
+  {
+    "name": "Static SVG Support for things like Icons",
+    "category": "ui",
+    "summary": "Ability to specify a static (non-animating) SVG asset to be used as an icon/image.",
+    "status": {
+      "text": "In Development",
+      "buildNumber": null
+    },
+    "msdn": "",
+    "demo": "",
+    "id": null,
+    "uservoiceid": null
+  },
+  {
+    "name": "Strikethrough support for TextBlock",
+    "category": "ui",
+    "summary": "Ability for a TextBlock to show Strikethrough text.",
+    "status": {
+      "text": "In Development",
+      "buildNumber": null
+    },
+    "msdn": "",
+    "demo": "",
+    "id": null,
+    "uservoiceid": null
+  },
+  {
+    "name": "Support ToUpper / Character Casing on TextBox",
+    "category": "ui",
+    "summary": "Ability to specify character casing for text entered into a TextBox.",
+    "status": {
+      "text": "Under Consideration",
+      "buildNumber": null
+    },
+    "msdn": "",
+    "demo": "",
+    "id": null,
+    "uservoiceid": 7272924
+  },
+  {
+    "name": "Image-based Closed Captions",
+    "category": "ui",
+    "summary": "Improve MediaPlayerElement to support image-based closed captions.",
+    "status": {
+      "text": "Under Consideration",
+      "buildNumber": null
+    },
+    "msdn": "",
+    "demo": "",
+    "id": null,
+    "uservoiceid": null
+  },
+  {
+    "name": "Pull to Refresh Control",
+    "category": "ui",
+    "summary": "High quality implementation of this common interaction pattern.",
+    "status": {
+      "text": "In Development",
+      "buildNumber": null
+    },
+    "msdn": "",
+    "demo": "",
+    "id": null,
+    "uservoiceid": null
+  },
+  {
+    "name": "Swipe Control",
+    "category": "ui",
+    "summary": "High quality implementation of this common interaction pattern.",
+    "status": {
+      "text": "In Development",
+      "buildNumber": null
+    },
+    "msdn": "",
+    "demo": "",
+    "id": null,
+    "uservoiceid": null
+  },
+  {
+    "name": "ColorPicker Control",
+    "category": "ui",
+    "summary": "High quality implementation of this common interaction pattern.",
+    "status": {
+      "text": "In Development",
+      "buildNumber": null
+    },
+    "msdn": "",
+    "demo": "",
+    "id": null,
+    "uservoiceid": null
+  },
+  {
+    "name": "Ratings Control",
+    "category": "ui",
+    "summary": "High quality implementation of this common interaction pattern.",
+    "status": {
+      "text": "In Development",
+      "buildNumber": null
+    },
+    "msdn": "",
+    "demo": "",
+    "id": null,
+    "uservoiceid": null
+  },
+  {
+    "name": "Navigation View ",
+    "category": "ui",
+    "summary": "High quality implementation of this common interaction pattern (aka 'Hamburger').",
+    "status": {
+      "text": "In Development",
+      "buildNumber": null
+    },
+    "msdn": "",
+    "demo": "",
+    "id": null,
+    "uservoiceid": null
+  },
+  {
+    "name": "Tree View Control",
+    "category": "ui",
+    "summary": "High quality implementation of this common interaction pattern.",
+    "status": {
+      "text": "In Development",
+      "buildNumber": null
+    },
+    "msdn": "",
+    "demo": "",
+    "id": null,
+    "uservoiceid": null
+  },
+  {
+    "name": "Ink Analysis UWP API",
+    "category": "interaction",
+    "summary": "Analyze ink document structure, classify ink types and recognize ink text and shapes in UWP apps.",
+    "status": {
+      "text": "Preview Release",
+      "buildNumber": 15002
+    },
+    "msdn": "",
+    "demo": "",
+    "id": 8193612,
+    "uservoiceid": null
+  },
+  {
+    "name": "Ink Analysis Writing/Drawing Classification Accuracy Improvements",
+    "category": "interaction",
+    "summary": "Improve the accuracy of ink writing/drawing classification.",
+    "status": {
+      "text": "Under Consideration",
+      "buildNumber": null
+    },
+    "msdn": "",
+    "demo": "",
+    "id": 5148376,
+    "uservoiceid": null
+  },
+  {
+    "name": "Ink Analysis Shape Recognition Accuracy Improvements",
+    "category": "interaction",
+    "summary": "Improve the accuracy of ink shape recognition.",
+    "status": {
+      "text": "Under Consideration",
+      "buildNumber": null
+    },
+    "msdn": "",
+    "demo": "",
+    "id": 5282773,
+    "uservoiceid": null
+  },
+  {
+    "name": "Progress bar control for toast notifications",
+    "category": "toast",
+    "summary": "Allow displaying progress UI within a toast notification, like download progress.",
+    "status": {
+      "text": "Preview Release",
+      "buildNumber": 15007
+    },
+    "msdn": "https://blogs.msdn.microsoft.com/tiles_and_toasts/2017/02/01/progress-ui-and-data-binding-inside-toast-notifications-windows-10-creators-update/",
+    "demo": "",
+    "id": null,
+    "uservoiceid": null
+  },
+  {
+    "name": "Headers for toast notifications",
+    "category": "toast",
+    "summary": "Allow providing a header for toast notifications, which groups multiple toasts within that header.",
+    "status": {
+      "text": "Preview Release",
+      "buildNumber": 15002
+    },
+    "msdn": "https://blogs.msdn.microsoft.com/tiles_and_toasts/2017/01/09/grouping-toast-notifications-under-different-headers-in-action-center-windows-10-creators-update/",
+    "demo": "",
+    "id": null,
+    "uservoiceid": null
+  },
+  {
+    "name": "Custom timestamp on toast notifications",
+    "category": "toast",
+    "summary": "Allow specifying a custom timestamp to be displayed on the toast notification, which can be more precise than the notification received time (for example, after your phone reconnects to the internet, app developers can include the time of the actual message, so that it doesn't look like all your messages came in exactly when you turned your phone on).",
+    "status": {
+      "text": "Preview Release",
+      "buildNumber": 15002
+    },
+    "msdn": "https://blogs.msdn.microsoft.com/tiles_and_toasts/2017/01/09/custom-timestamp-on-toast-notifications-windows-10-creators-update/",
+    "demo": "",
+    "id": null,
+    "uservoiceid": null
+  },
+  {
+    "name": "System.Data.SqlClient support on UWP",
+    "category": "filedata",
+    "summary": "Let UWP developers connect to their SQLServer backends via the System.Data.SqlClient methods already available in .NET Core and .NET Framework.",
+    "status": {
+      "text": "Under Consideration",
+      "buildNumber": null
+    },
+    "msdn": "",
+    "demo": "",
+    "id": null,
+    "uservoiceid": null
+  },
+  {
+    "name": "CompactOverlay mode – aka Picture-in-Picture",
+    "category": "appviewmgmt",
+    "summary": "Be able to show our app above other windows so it won't get blocked. This allows users to continue to keep an eye on our app's content even when they are working with something else. The canonical example of an app taking advantage of this feature is a media player or a video chat app, enabling PIP scenarios.",
+    "status": {
+      "text": "Preview Release",
+      "buildNumber": 15021
+    },
+    "msdn": "https://blogs.msdn.microsoft.com/universal-windows-app-model/2017/02/11/compactoverlay-mode-aka-picture-in-picture/",
+    "demo": "",
+    "id": null,
+    "uservoiceid": null
+  }
+]
