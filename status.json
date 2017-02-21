@@ -1113,5 +1113,70 @@
     "demo": "",
     "id": null,
     "uservoiceid": null
+  },
+  {
+    "name": "Create code page to support UTF-8",
+    "category": "globalization",
+    "summary": "Better interop with code designed for *nix-based platforms",
+    "status": {
+      "text": "Under Consideration",
+      "buildNumber": null
+    },
+    "msdn": "",
+    "demo": "",
+    "id": 7979277,
+    "uservoiceid": null
+  },
+  {
+    "name": "[Globalization] Middleware: Refactor ICU to Call Windows Code Pages",
+    "category": "globalization",
+    "summary": "Consistency between code using Windows APIs and code using ICU APIs; disk footprint savings",
+    "status": {
+      "text": "Under Consideration",
+      "buildNumber": null
+    },
+    "msdn": "",
+    "demo": "",
+    "id": 8933726,
+    "uservoiceid": null
+  },
+  {
+    "name": "Deprecate all \"known bad\" globalization APIs to avoid further misuse, even for Desktop / Centennial apps",
+    "category": "globalization",
+    "summary": "Gives developers build warnings for APIs that don’t support full spectrum of locales available in Windows",
+    "status": {
+      "text": "Under Consideration",
+      "buildNumber": null
+    },
+    "msdn": "",
+    "demo": "",
+    "id": 8865433,
+    "uservoiceid": null
+  },
+  {
+    "name": "Abstraction layer of thin C++ APIs over native ICU C APIs",
+    "category": "globalization",
+    "summary": "Refactoring ICU to make the ‘C’ API fully functional and making C++ a trivial header-only library",
+    "status": {
+      "text": "Under Consideration",
+      "buildNumber": null
+    },
+    "msdn": "",
+    "demo": "",
+    "id": 9014009,
+    "uservoiceid": null
+  },
+  {
+    "name": "[Globalization] Middleware: ICU Windows OneCore deployment",
+    "category": "globalization",
+    "summary": "Add ICU APIs and CLDR data to Windows, making it available to all apps",
+    "status": {
+      "text": "Preview Release",
+      "buildNumber": 15031
+    },
+    "msdn": "",
+    "demo": "",
+    "id": 1941742,
+    "uservoiceid": null
   }
 ]
