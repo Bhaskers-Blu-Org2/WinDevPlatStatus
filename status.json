@@ -1178,5 +1178,17 @@
     "demo": "",
     "id": 1941742,
     "uservoiceid": null
+  },
+  {
+    "name": "API to pin own app to taskbar and check if pinned",
+    "category": "appviewmgmt",
+    "summary": "Allow apps to check if they're pinned to taskbar, and request to pin themselves to taskbar.",
+    "status": {
+      "text": "Under Consideration"
+    },
+    "msdn": "",
+    "demo": "",
+    "id": 10427352,
+    "uservoiceid": null
   }
 ]
