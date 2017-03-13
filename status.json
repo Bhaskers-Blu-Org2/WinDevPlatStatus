@@ -88,7 +88,8 @@
     "category": "toast",
     "summary": "Allow third party alarm notifications to break through quiet hours, just like native Alarm app",
     "status": {
-      "text": "Under Consideration"
+      "text": "Preview Release",
+      "buildNumber": "14971"
     },
     "msdn": "",
     "demo": "",
