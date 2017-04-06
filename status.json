@@ -88,8 +88,8 @@
     "category": "toast",
     "summary": "Allow third party alarm notifications to break through quiet hours, just like native Alarm app",
     "status": {
-      "text": "Preview Release",
-      "buildNumber": "14971"
+      "text": "Shipped",
+      "buildNumber": "15063"
     },
     "msdn": "",
     "demo": "",
@@ -101,10 +101,10 @@
     "category": "tile",
     "summary": "Allow apps to check whether their primary tile is pinned to Start, and request to pin their primary live tile.",
     "status": {
-      "text": "Preview Release",
-      "buildNumber": "15025"
+      "text": "Shipped",
+      "buildNumber": "15063"
     },
-    "msdn": "https://blogs.msdn.microsoft.com/tiles_and_toasts/2017/02/01/primary-live-tile-api-windows-10/",
+    "msdn": "https://docs.microsoft.com/en-us/windows/uwp/controls-and-patterns/tiles-and-notifications-primary-tile-apis",
     "demo": "",
     "id": null,
     "uservoiceid": 2809413
@@ -126,8 +126,8 @@
     "category": "toast",
     "summary": "Currently, Toast Tag/Group is too short to even hold a GUID",
     "status": {
-      "text": "Preview Release",
-      "buildNumber": 15002
+      "text": "Shipped",
+      "buildNumber": 15063
     },
     "msdn": "",
     "demo": "",
@@ -165,9 +165,10 @@
     "category": "background",
     "summary": "Allow enterprises to configure background execution policies, both globally and per-app (via GP and User Settings)",
     "status": {
-      "text": "In Development"
+      "text": "Shipped",
+      "buildNumber": 15063
     },
-    "msdn": "",
+    "msdn": "https://msdn.microsoft.com/windows/hardware/commercialize/customize/mdm/policy-configuration-service-provider#privacy-letappsruninbackground",
     "demo": "",
     "id": 8239346,
     "uservoiceid": null
@@ -177,7 +178,8 @@
     "category": "desktopbridge",
     "summary": "Allow DesktopBridge apps to declare their firewall exemptions in the appx manifest",
     "status": {
-      "text": "In Development"
+      "text": "Shipped",
+      "buildNumber": 15063
     },
     "msdn": "",
     "demo": "",
@@ -189,7 +191,8 @@
     "category": "desktopbridge",
     "summary": "Support DesktopBridge apps to be preinstalled on Windows images",
     "status": {
-      "text": "In Development"
+      "text": "Shipped",
+      "buildNumber": 15063
     },
     "msdn": "",
     "demo": "",
@@ -201,7 +204,8 @@
     "category": "appviewmgmt",
     "summary": "Allow games to be smart about handling Window resize",
     "status": {
-      "text": "In Development"
+      "text": "Shipped",
+      "buildNumber": 15063
     },
     "msdn": "",
     "demo": "",
@@ -249,8 +253,8 @@
     "category": "deployment",
     "summary": "Registering an app in development mode allows for quicker iteration in development.  In many cases a developer wants to test on multiple devices or collaborate with other developer at the same time.  This feature allows the app registration to a network share so multiple devices can share register to teh same folder without the need to copy the files to each device.",
     "status": {
-      "text": "Preview Release",
-      "buildNumber": "14965"
+      "text": "Shipped",
+      "buildNumber": "15063"
     },
     "msdn": "http://blogs.msdn.microsoft.com/appinstaller/2016/11/04/rapid-app-development-using-register-layout-from-network-share-new-in-build-14965/",
     "demo": "",
@@ -262,8 +266,8 @@
     "category": "deployment",
     "summary": "When a user gets an update of a UWP app the deployment stack performs a differential download based on changes block with in the app, minimizing the bandwidth and update time for the user.  In the Windows 10 Creators Update a new tool was introduced (ComparePackage) to allow the developer to understand what the delta impact across two packages will be to an end user.  ComparePackage will show the add, changes, and deletes of files to allowing the developer to further optimize as needed.",
     "status": {
-      "text": "Preview Release",
-      "buildNumber": "15014"
+      "text": "Shipped",
+      "buildNumber": "15063"
     },
     "msdn": "",
     "demo": "",
@@ -275,8 +279,8 @@
     "category": "deployment",
     "summary": "Many apps come preinstalled with Windows. These are typically apps which are core to the Windows experience or that most people expect the system to have by default. Starting with build 14942 if a user removes an app the Windows upgrade experience will not reinstall the app on the device.",
     "status": {
-      "text": "Preview Release",
-      "buildNumber": "14942"
+      "text": "Shipped",
+      "buildNumber": "15063"
     },
     "msdn": "https://blogs.msdn.microsoft.com/appinstaller/2016/10/25/upgrade-improvements-in-14942/",
     "demo": "",
@@ -288,8 +292,8 @@
     "category": "deployment",
     "summary": "When managing and deploying apps from a Company Hub UWP developers wants the ability to report status and progress of installations of UWP on the device.  In the creators update the package catalog class will allow a UWP with Package Management capabilities the ability to listen for state and installation progress of a UWP deployment.",
     "status": {
-      "text": "Preview Release",
-      "buildNumber": "15014"
+      "text": "Shipped",
+      "buildNumber": "15063"
     },
     "msdn": "https://msdn.microsoft.com/en-us/library/windows/apps/Windows.ApplicationModel.PackageCatalog.aspx",
     "demo": "",
@@ -301,8 +305,8 @@
     "category": "deployment",
     "summary": "Apps that are preinstalled on Windows 10 desktop are registered to all users that log into the device.  An administrator could remove these preinstalled apps so no new users would register the app, but if a user had previously been logged in they would still have the app registered.  The Windows 10 Creators Update now offers additional commands allow an administrator to remove the preinstalled app from the devices and from any user profile that has registered the app allowing for a complete removal of the app from the device.",
     "status": {
-      "text": "Preview Release",
-      "buildNumber": "15014"
+      "text": "Shipped",
+      "buildNumber": "15063"
     },
     "msdn": "",
     "demo": "",
@@ -314,10 +318,10 @@
     "category": "deployment",
     "summary": "Developers can enable their app to launch when a minimal payload is deployed to the user.  This allows for quicker app engagement for the user.  Within the app the developer can customize the experience of the app as the remaining portion of the app are deployed.  A developer can prioritize the downloads of files and see progress of the remaining installation to provide a fluid in app experience.",
     "status": {
-      "text": "In Development",
-      "buildNumber": null
+      "text": "Shipped",
+      "buildNumber": "15063"
     },
-    "msdn": "",
+    "msdn": "https://docs.microsoft.com/en-us/windows/uwp/packaging/streaming-install",
     "demo": "",
     "id": 7932349,
     "uservoiceid": null
@@ -327,8 +331,8 @@
     "category": "deployment",
     "summary": "If an app is over 10 GB in space it will update the files in place instead of staging the files side by side with the original version preventing out of disk space errors when updating.",
     "status": {
-      "text": "In Development",
-      "buildNumber": null
+      "text": "Shipped",
+      "buildNumber": "15063"
     },
     "msdn": "",
     "demo": "",
@@ -379,8 +383,8 @@
     "category": "projectrome",
     "summary": "Remote Sessions enable developers to create experiences that multiple participants can concurrently engage in. These new APIs enable developers to create sessions, discover sessions (proximally), discover other users’ devices (proximally and with \"Share across devices\" setting set to \"everyone nearby\"), and exchange messages with other participants in the session.",
     "status": {
-      "text": "In Development",
-      "buildNumber": null
+      "text": "Shipped",
+      "buildNumber": 15063
     },
     "msdn": "",
     "demo": "",
@@ -392,10 +396,10 @@
     "category": "projectrome",
     "summary": "The Android SDK provides the same client functionality as our Anniversary Update Remote Systems Windows SDK:\n a) Device discovery, proximal and cloud\n b) Remote launch",
     "status": {
-      "text": "In Development",
-      "buildNumber": null
+      "text": "Shipped",
+      "buildNumber": 15063
     },
-    "msdn": "",
+    "msdn": "https://github.com/Microsoft/project-rome",
     "demo": "",
     "id": null,
     "uservoiceid": null
@@ -405,8 +409,8 @@
     "category": "projectrome",
     "summary": "AppUriHandlers are now supported in the Edge browser",
     "status": {
-      "text": "In Development",
-      "buildNumber": null
+      "text": "Shipped",
+      "buildNumber": 15063
     },
     "msdn": "",
     "demo": "",
@@ -418,8 +422,8 @@
     "category": "projectrome",
     "summary": "The Remote Systems APIs now support AAD as well. You can discover your devices based on your AAD identity.",
     "status": {
-      "text": "In Development",
-      "buildNumber": null
+      "text": "Shipped",
+      "buildNumber": 15063
     },
     "msdn": "",
     "demo": "",
@@ -431,8 +435,8 @@
     "category": "projectrome",
     "summary": "The Remote Systems APIs have been updated to support:\n a) Spatially proximal discovery/filtering of devices\n b) Anonymous (cross-user) discovery of devices\n c) Ability to check state of “Share across devices” setting on local device\n d) Ability to check resources/capabilities on a given Remote System\n e) Settings update",
     "status": {
-      "text": "In Development",
-      "buildNumber": null
+      "text": "Shipped",
+      "buildNumber": 15063
     },
     "msdn": "",
     "demo": "",
@@ -470,8 +474,8 @@
     "category": "ui",
     "summary": "Use of lights, effect graphs, blurs, noise assets, blend modes etc. to create more lifelike UI with contextual materials",
     "status": {
-      "text": "In Development",
-      "buildNumber": null
+      "text": "Shipped",
+      "buildNumber": 15063
     },
     "msdn": "",
     "demo": "",
@@ -483,8 +487,8 @@
     "category": "ui",
     "summary": "Developers are able to customize how items are shown or hidden during page transitions ",
     "status": {
-      "text": "In Development",
-      "buildNumber": null
+      "text": "Shipped",
+      "buildNumber": 15063
     },
     "msdn": "",
     "demo": "",
@@ -496,8 +500,8 @@
     "category": "ui",
     "summary": "Responding to developer demand, now more Composition objects and properties can be implicitly animated than in the Anniversary Update.",
     "status": {
-      "text": "In Development",
-      "buildNumber": null
+      "text": "Shipped",
+      "buildNumber": 15063
     },
     "msdn": "",
     "demo": "",
@@ -509,10 +513,10 @@
     "category": "ui",
     "summary": "Enhanced DPI  APIs to allow Win32 apps more flexibility in controlling UI scaling and fidelity on a per-monitor basis. Developers no longer need to deal with an \"all or nothing\" option for DPI, and can progressively convert portions of their UI over to work better on newer premium PC displays.\n\nE.g. Automatic scaling of the title bar;  More controls in ComCtl are DPI aware",
     "status": {
-      "text": "In Development",
-      "buildNumber": null
+      "text": "Shipped",
+      "buildNumber": 15063
     },
-    "msdn": "",
+    "msdn": "https://msdn.microsoft.com/library/mt791579(v=vs.85)",
     "demo": "",
     "id": null,
     "uservoiceid": null
@@ -756,8 +760,8 @@
     "category": "desktopbridge",
     "summary": "DAC should produce a manfest file for simple apps that do not have an installer (ie: xcopy)",
     "status": {
-      "text": "In Development",
-      "buildNumber": null
+      "text": "Shipped",
+      "buildNumber": 15063
     },
     "msdn": "",
     "demo": "",
@@ -769,8 +773,8 @@
     "category": "desktopbridge",
     "summary": "Detect Out of proc COM registrations and add appropriate Packaged COM manifest entries.",
     "status": {
-      "text": "In Development",
-      "buildNumber": null
+      "text": "Shipped",
+      "buildNumber": 15063
     },
     "msdn": "",
     "demo": "",
@@ -795,8 +799,8 @@
     "category": "com",
     "summary": "Allow apps to register public Out-of-Proc COM servers",
     "status": {
-      "text": "In Development",
-      "buildNumber": null
+      "text": "Shipped",
+      "buildNumber": 15063
     },
     "msdn": "",
     "demo": "",
@@ -808,10 +812,10 @@
     "category": "com",
     "summary": "Support for Optional Packages when registering WinRT classes",
     "status": {
-      "text": "In Development",
-      "buildNumber": null
+      "text": "Shipped",
+      "buildNumber": 15063
     },
-    "msdn": "",
+    "msdn": "https://docs.microsoft.com/windows/uwp/packaging/optional-packages",
     "demo": "",
     "id": null,
     "uservoiceid": null
@@ -821,8 +825,8 @@
     "category": "com",
     "summary": "Update the inbox version of SQLite to the latest version",
     "status": {
-      "text": "In Development",
-      "buildNumber": null
+      "text": "Shipped",
+      "buildNumber": 15063
     },
     "msdn": "",
     "demo": "",
@@ -886,10 +890,10 @@
     "category": "ui",
     "summary": "Ability to specify a static (non-animating) SVG asset to be used as an icon/image.",
     "status": {
-      "text": "In Development",
-      "buildNumber": null
+      "text": "Shipped",
+      "buildNumber": 15063
     },
-    "msdn": "",
+    "msdn": "https://docs.microsoft.com/uwp/api/windows.ui.xaml.media.imaging.svgimagesource",
     "demo": "",
     "id": null,
     "uservoiceid": null
@@ -899,10 +903,10 @@
     "category": "ui",
     "summary": "Ability for a TextBlock to show Strikethrough text.",
     "status": {
-      "text": "In Development",
-      "buildNumber": null
+      "text": "Shipped",
+      "buildNumber": 15063
     },
-    "msdn": "",
+    "msdn": "https://docs.microsoft.com/en-us/uwp/api/windows.ui.text.textdecorations",
     "demo": "",
     "id": null,
     "uservoiceid": null
@@ -1016,8 +1020,8 @@
     "category": "interaction",
     "summary": "Analyze ink document structure, classify ink types and recognize ink text and shapes in UWP apps.",
     "status": {
-      "text": "Preview Release",
-      "buildNumber": 15002
+      "text": "Shipped",
+      "buildNumber": 15063
     },
     "msdn": "",
     "demo": "",
@@ -1055,8 +1059,8 @@
     "category": "toast",
     "summary": "Allow displaying progress UI within a toast notification, like download progress.",
     "status": {
-      "text": "Preview Release",
-      "buildNumber": 15007
+      "text": "Shipped",
+      "buildNumber": 15063
     },
     "msdn": "https://blogs.msdn.microsoft.com/tiles_and_toasts/2017/02/01/progress-ui-and-data-binding-inside-toast-notifications-windows-10-creators-update/",
     "demo": "",
@@ -1068,8 +1072,8 @@
     "category": "toast",
     "summary": "Allow providing a header for toast notifications, which groups multiple toasts within that header.",
     "status": {
-      "text": "Preview Release",
-      "buildNumber": 15002
+      "text": "Shipped",
+      "buildNumber": 15063
     },
     "msdn": "https://blogs.msdn.microsoft.com/tiles_and_toasts/2017/01/09/grouping-toast-notifications-under-different-headers-in-action-center-windows-10-creators-update/",
     "demo": "",
@@ -1081,8 +1085,8 @@
     "category": "toast",
     "summary": "Allow specifying a custom timestamp to be displayed on the toast notification, which can be more precise than the notification received time (for example, after your phone reconnects to the internet, app developers can include the time of the actual message, so that it doesn't look like all your messages came in exactly when you turned your phone on).",
     "status": {
-      "text": "Preview Release",
-      "buildNumber": 15002
+      "text": "Shipped",
+      "buildNumber": 15063
     },
     "msdn": "https://blogs.msdn.microsoft.com/tiles_and_toasts/2017/01/09/custom-timestamp-on-toast-notifications-windows-10-creators-update/",
     "demo": "",
@@ -1107,8 +1111,8 @@
     "category": "appviewmgmt",
     "summary": "Be able to show our app above other windows so it won't get blocked. This allows users to continue to keep an eye on our app's content even when they are working with something else. The canonical example of an app taking advantage of this feature is a media player or a video chat app, enabling PIP scenarios.",
     "status": {
-      "text": "Preview Release",
-      "buildNumber": 15021
+      "text": "Shipped",
+      "buildNumber": 15063
     },
     "msdn": "https://blogs.msdn.microsoft.com/universal-windows-app-model/2017/02/11/compactoverlay-mode-aka-picture-in-picture/",
     "demo": "",
@@ -1172,8 +1176,8 @@
     "category": "globalization",
     "summary": "Add ICU APIs and CLDR data to Windows, making it available to all apps",
     "status": {
-      "text": "Preview Release",
-      "buildNumber": 15031
+      "text": "Shipped",
+      "buildNumber": 15063
     },
     "msdn": "",
     "demo": "",
