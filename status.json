@@ -678,6 +678,19 @@
     "uservoiceid": null
   },
   {
+    "name": "Developers can use UWP XAML controls in Win32 apps on Windows 10",
+    "category": "ui",
+    "summary": "Access to the UWP XAML UI and controls from a Win32, WPF, WinForms etc. app on Windows 10.",
+    "status": {
+      "text": "Under Consideration",
+      "buildNumber": null
+    },
+    "msdn": "",
+    "demo": "",
+    "id": null,
+    "uservoiceid": null
+  },
+  {
     "name": "Support for clocks to control Animations",
     "category": "ui",
     "summary": "Developers are able to control and manage the progression of their animations – making choreographed UI and “playback control” experiences possible to create: Clocks, Triggers, State machines",
