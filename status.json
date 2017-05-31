@@ -1202,11 +1202,35 @@
     "category": "appviewmgmt",
     "summary": "Allow apps to check if they're pinned to taskbar, and request to pin themselves to taskbar.",
     "status": {
-      "text": "Under Consideration"
+      "text": "In Development"
     },
     "msdn": "",
     "demo": "",
     "id": 10427352,
+    "uservoiceid": null
+  },
+  {
+    "name": "Multi-step interactivity in toast notifications",
+    "category": "toast",
+    "summary": "Allow interactive toast notifications that have multiple steps of interactivity. For example, the initial toast has a dropdown with a Next button, and then clicking Next triggers a background task while leaving the toast in a pending state until your app updates the toast with the next step.",
+    "status": {
+      "text": "In Development"
+    },
+    "msdn": "",
+    "demo": "",
+    "id": null,
+    "uservoiceid": null
+  },
+  {
+    "name": "Secondary tiles for Desktop apps",
+    "category": "desktopbridge",
+    "summary": "Desktop Bridge apps can use secondary tiles thanks to the new IInitializeWithWindow API.",
+    "status": {
+      "text": "Preview Release"
+    },
+    "msdn": "https://docs.microsoft.com/en-us/windows/uwp/controls-and-patterns/tiles-and-notifications-secondary-tiles-desktop-pinning",
+    "demo": "https://github.com/Microsoft/DesktopBridgeToUWP-Samples/tree/master/Samples/SecondaryTileSample",
+    "id": null,
     "uservoiceid": null
   }
 ]
