@@ -124,7 +124,7 @@
   {
     "name": "Allow max length of Toast Tag/Group to be at least GUID length",
     "category": "toast",
-    "summary": "Currently, Toast Tag/Group is too short to even hold a GUID",
+    "summary": "Toast Tag/Group properties each now support up to 64 characters rather than just 16 characters!",
     "status": {
       "text": "Shipped",
       "buildNumber": 15063
