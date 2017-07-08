@@ -1202,7 +1202,8 @@
     "category": "appviewmgmt",
     "summary": "Allow apps to check if they're pinned to taskbar, and request to pin themselves to taskbar.",
     "status": {
-      "text": "In Development"
+      "text": "Preview Release",
+      "buildNumber": 16225
     },
     "msdn": "",
     "demo": "",
