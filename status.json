@@ -1211,11 +1211,12 @@
     "uservoiceid": null
   },
   {
-    "name": "Multi-step interactivity in toast notifications",
+    "name": "Multi-step interactivity in toast notifications (AfterActivationBehavior PendingUpdate)",
     "category": "toast",
     "summary": "Allow interactive toast notifications that have multiple steps of interactivity. For example, the initial toast has a dropdown with a Next button, and then clicking Next triggers a background task while leaving the toast in a pending state until your app updates the toast with the next step.",
     "status": {
-      "text": "In Development"
+      "text": "Preview Release",
+      "buildNumber": 16251
     },
     "msdn": "",
     "demo": "",
