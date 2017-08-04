@@ -571,7 +571,7 @@
     "msdn": "",
     "demo": "",
     "id": null,
-    "uservoiceid": null
+    "uservoiceid": 19220554
   },
   {
     "name": "Improve the developer experience in authoring Expression Animations",
@@ -681,6 +681,19 @@
     "name": "Developers can use UWP XAML controls in Win32 apps on Windows 10",
     "category": "ui",
     "summary": "Access to the UWP XAML UI and controls from a Win32, WPF, WinForms etc. app on Windows 10.",
+    "status": {
+      "text": "Under Consideration",
+      "buildNumber": null
+    },
+    "msdn": "",
+    "demo": "",
+    "id": null,
+    "uservoiceid": null
+  },
+   {
+    "name": "Apply effects to trees of XAML content",
+    "category": "ui",
+    "summary": "Support Layer effects to be applied to entire controls and UIElement trees",
     "status": {
       "text": "Under Consideration",
       "buildNumber": null
