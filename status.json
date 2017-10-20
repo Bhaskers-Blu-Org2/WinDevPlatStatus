@@ -1215,11 +1215,11 @@
     "category": "appviewmgmt",
     "summary": "Allow apps to check if they're pinned to taskbar, and request to pin themselves to taskbar.",
     "status": {
-      "text": "Preview Release",
-      "buildNumber": 16225
+      "text": "Shipped",
+      "buildNumber": 16299
     },
-    "msdn": "",
-    "demo": "",
+    "msdn": "https://docs.microsoft.com/en-us/windows/uwp/controls-and-patterns/pin-to-taskbar",
+    "demo": "https://github.com/WindowsNotifications/quickstart-pin-to-taskbar",
     "id": 10427352,
     "uservoiceid": null
   },
@@ -1241,7 +1241,8 @@
     "category": "desktopbridge",
     "summary": "Desktop Bridge apps can use secondary tiles thanks to the new IInitializeWithWindow API.",
     "status": {
-      "text": "Preview Release"
+      "text": "Shipped",
+      "buildNumber": 16299
     },
     "msdn": "https://docs.microsoft.com/en-us/windows/uwp/controls-and-patterns/tiles-and-notifications-secondary-tiles-desktop-pinning",
     "demo": "https://github.com/Microsoft/DesktopBridgeToUWP-Samples/tree/master/Samples/SecondaryTileSample",
