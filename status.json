@@ -1248,5 +1248,31 @@
     "demo": "https://github.com/Microsoft/DesktopBridgeToUWP-Samples/tree/master/Samples/SecondaryTileSample",
     "id": null,
     "uservoiceid": null
+  },
+  {
+    "name": "Chaseable tiles for Javascript apps",
+    "category": "tile",
+    "summary": "Allow using chaseable tiles from Javascript apps.",
+    "status": {
+      "text": "In Development",
+      "buildNumber": null
+    },
+    "msdn": null,
+    "demo": null,
+    "id": null,
+    "uservoiceid": null
+  },
+  {
+    "name": "ExpirationTime on scheduled toast",
+    "category": "toast",
+    "summary": "Allow setting an expiration time on scheduled toast notifications.",
+    "status": {
+      "text": "In Development",
+      "buildNumber": null
+    },
+    "msdn": null,
+    "demo": null,
+    "id": null,
+    "uservoiceid": null
   }
 ]
